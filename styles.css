@@ -1,4 +1,3 @@
-
 body{
     margin:0;
     
@@ -13,7 +12,7 @@ h1{
     background-color:#63B3ED;
  padding: 3em;
     width:1190px;
-    height:60px;
+    height:30px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +37,10 @@ img{
     width: 60%;
     height: 1px;
     background: lightgray;
+}
+
+h2{
+    color:#48BB78;
 }
 
 
@@ -93,10 +96,10 @@ background: orchid;
 .footer{
 
   
- clear: both;
+ 
  background:#2C5282;
  color: #FFFFFF;
- padding: 1px;
+ 
 }
 @media only screen and (min-width: 700px){
 
@@ -104,7 +107,7 @@ background: orchid;
 .container{
     display:grid;
     border:6px;
-    width:100vm;
+    width:100%;
     margin: 0 auto;
     height: 100vh;
     padding:10px;
@@ -114,9 +117,9 @@ background: orchid;
     "header header"
     "main-sec     side-bar"
     
-    "footer     footer";
-   grid-template-rows:    minmax(100px, auto);
-   grid-template-columns: minmax(auto, 50%) 1fr 3em;
+    "footer    footer";
+   grid-template-rows:    minmax(100px,70px);
+   grid-template-columns: minmax(80px, 50%) 10fr 2em;
    
 }
 header.header{ grid-area:header;}
@@ -125,9 +128,11 @@ article.side-bar{grid-area:side-bar;}
 footer.footer{grid-area:footer;}
 
 .image{
-    float:right;
+    float: left;
     margin-top:10px;
     margin-bottom:10px;
+    margin-left: 10px;
+    margin-left:10px;
     
     width: 50px;
     height: 50px;
@@ -137,7 +142,11 @@ footer.footer{grid-area:footer;}
 }
 .image1{
     float:left;
-    margin-top:4px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-left:10px;
+    
     
     width: 50px;
     height: 50px;
@@ -173,3 +182,4 @@ small{
 
 
 }
+ 
