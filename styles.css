@@ -20,16 +20,18 @@ h1{
     
 }
 
-img{
-    position:relative;
+#img{
+    position: relative;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center ;
     width: 50px;
     height: 50px;
-    top: 35px;
-    left: 25px;
+    top:35px;
+    left:25px;
+    
+    
     border-radius: 50%;
 }
 
@@ -45,7 +47,7 @@ h2{
 
 
 .main-sec{
-     grid-row-start: 2;
+     grid-row-start: 3;
      grid-row-end:span 3;
      grid-column-start: 1;
      grid-row-end: 2;
@@ -95,8 +97,9 @@ background: orchid;
 }
 .footer{
 
-  
- 
+  height:50px;
+ grid-row-start:25;
+ grid-column-end:span 4;
  background:#2C5282;
  color: #FFFFFF;
  
@@ -128,31 +131,27 @@ article.side-bar{grid-area:side-bar;}
 footer.footer{grid-area:footer;}
 
 .image{
-    float: left;
+    float: right;
     margin-top:10px;
     margin-bottom:10px;
-    margin-left: 10px;
-    margin-left:10px;
     
-    width: 50px;
-    height: 50px;
-    top: 5px;
-    left: 25px;
-    border-radius: 50%;
+    
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 20%;
 }
 .image1{
     float:left;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-left: 10px;
-    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
     
     
-    width: 50px;
-    height: 50px;
-    top: 5px;
-    left: 25px;
-    border-radius: 50%;
+    
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 20%;
 }
 .author{
     position: absolute;
@@ -182,4 +181,16 @@ small{
 
 
 }
+ #about{
+     color:#000000;
+ }
+ #descript{
+     background-color: #E2E8F0;
+ }
+ #social{
+    color:#48BB78;
+ }
  
+ li{
+    color:#4229E1;
+ }
